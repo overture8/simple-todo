@@ -118,6 +118,7 @@ todoItem : Task -> Html
 todoItem todo =
   li 
     [class "todo-item"]
+    [text todo.description]
 
 --- INPUTS ---
 
